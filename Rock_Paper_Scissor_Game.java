@@ -1,4 +1,4 @@
-// JAVA EXERCISE 2 [ROCK_PAPER_SCISSOR GAME]
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -42,3 +42,4 @@ public class Rock_Paper_Scissor_Game {
     }
     
 }
+
