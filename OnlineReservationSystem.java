@@ -65,7 +65,7 @@ public class OnlineReservationSystem {
         System.out.print("To :- ");
         String to = sc.nextLine();
 
-        String pnr = new Random().nextInt(99999);
+        String pnr = "PNR" + new Random().nextInt(99999);
 
         Reservation r = new Reservation(name, trainNumber, trainName, classType, date, from, to, pnr);
         database.put(pnr,r);
@@ -134,5 +134,6 @@ public class OnlineReservationSystem {
      }
 }
     
+
 
 
